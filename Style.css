@@ -476,9 +476,10 @@ bottom: 18px;
     }
 
     .section-six img{
-        width: 150px;
-        height: 150px;
+        width: 120px;
+        height: 120px;
         border-radius: 50%;
+        margin-left: 160px;
     }
 
     /* .section-sixa{
@@ -535,9 +536,125 @@ bottom: 18px;
         font-size: 90px;
     }
 
+    .nav-dots a:link{
+        color: #FF00BF;
+    } 
+
+    
+
     .nav-dots a:hover{
         color: #FF00BF;
     } 
 
+    .nav-dots a:active{
+        color: #FF00BF;
+    }
 
+
+  .section-six{
+    position: relative;
+    padding-top: 20px;
+  }  
+
+  .six{
+    display: grid;
+    justify-content: center;
+    opacity: 0;
+  }
+
+  .section-sixb{
+    position: absolute;
+    bottom: 110px;
+    left: 441px;
+   
+  }
+
+  .section-sixc{
+    position: absolute;
+    bottom: 111px;
+    left: 441px;
+   
+
+  }
+
+  #profile1:target, #profile2:target, #profile3:target{
+    opacity: 1;
+  }
+
+  
+.section-six h3{
+    display: flex;
+    justify-content: center;
     
+    font-size: 30px;
+}
+
+.section-six p{
+    line-height: 22px;
+    color: gray;
+}
+
+.section-six h5{
+    display: flex;
+    justify-content: center;
+    
+    font-size: 20px;
+}
+
+footer{
+    background-color: #000000;
+    
+
+}
+
+footer h3{
+    color: white;
+    padding-bottom: 20px;
+    font-size: 25px;
+}
+
+footer p{
+    color: gray;
+}
+
+.logos i{
+    color: blue;
+}
+
+.ahead{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding-top: 30px;
+    justify-content: center;
+    column-gap: 85px;
+    padding-bottom: 30px;
+}
+.b p{
+    padding-bottom: 20px;
+}
+.d p{
+    padding-bottom: 20px;
+}
+
+.ed{
+    display: flex;
+    flex-direction: row;
+     margin-left: 700px;
+   
+    
+}
+
+.ed p{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+hr{
+    background-color: gray;
+    color: gray;
+}
+
+.end{
+    display: flex;
+    flex-direction: row;
+}
